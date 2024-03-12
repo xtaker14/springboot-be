@@ -51,6 +51,12 @@
 			<scope>test</scope>
 		</dependency>
 		
+		<!-- Swagger (http://localhost:8080/swagger-ui.html) -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.0.2</version>
+		</dependency>
 		<!-- Redis -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -70,6 +76,13 @@
 			<groupId>org.camunda.bpm.springboot</groupId>
 			<artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
 			<version>7.20.0</version>
+		</dependency>
+		<!-- Auto-restart -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 
